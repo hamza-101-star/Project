@@ -1,0 +1,54 @@
+# File Organizer
+
+A simple Python application with a graphical user interface (GUI) that helps you organize files in a selected folder by categorizing them into subfolders based on file types.
+
+## Features
+
+- Organizes files into categories such as:
+  - Documents (`.pdf`, `.docx`, `.txt`, `.xlsx`)
+  - Images (`.jpg`, `.jpeg`, `.png`, `.gif`)
+  - Videos (`.mp4`, `.mkv`, `.avi`)
+  - Music (`.mp3`, `.wav`)
+  - Archives (`.zip`, `.rar`, `.7z`)
+  - Others (for uncategorized file types)
+- Simple, intuitive GUI using Tkinter
+- Automatically creates folders for each category if they don’t already exist
+
+## Prerequisites
+
+- Python 3.x installed on your system
+
+Navigate to the project directory:
+                                  cd file-organizer
+
+- Usage
+1)Run the script:
+                 python file_organizer.py
+
+- In the GUI window:
+                 Click the "Browse Folder" button.
+
+Select the folder you want to organize.
+
+The program will sort files into corresponding category folders.
+
+- How It Works:
+
+ The script scans all files in the selected folder, checks their extensions, and moves them into folders named:
+
+.Documents
+
+.Images
+
+.Videos
+
+.Music
+
+.Archives
+
+.Others (for anything not in the above categories)
+
+
+
+- Author:
+Created by HAMZA SAJID. Contributions and suggestions are welcome!
